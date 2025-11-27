@@ -6,14 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/home.css">
 </head>
 
 <body>
+
+    <div class="section-navBar">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">English-School</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
     <div class="section-1">
-        <h1>Welcome to the home view!</h1>
+
+        <div class="container"> <!-- Centraliza o conteúdo -->
+            <div class="row Row1"> <!-- Cria linha 1 -->
+                <div class="col-12 col-md-6 col-lg-4 text-white FORMdiv">
+                    <div class="FORMdiv-text">
+                        <h1>EBOOK GRATUITO</h1>
+                        <h3>Aprenda inglês em 4 meses!</h3>
+                        <p>Cadastra-se e receba o ebook no seu email</p>
+                    </div>
+                    <form class="p-3 border rounded FORM" action="/send-email" method="post">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" name="nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="Email" placeholder="Digite seu email"
+                                name="email">
+                        </div>
+                        <button class="btn btn-primary w-100">Entrar</button>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-white">
+                    <img src="/images/ChatGPT Image 23 de nov. de 2025, 17_07_26.png" alt="lua"
+                        class="imagem-section-1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-2">
+
+        <div class="text-section-2">
+            <h1>Como esse ebook vai me ajudar?</h1>
+        </div>
+
+        <div class="container">
+            <div class="row Row2">
+                <div class="col-12 col-md-6 col-lg-4 text-white">
+                    <h1>Aprendizado simples</h1>
+                    <p>
+                        Meu e-book ensina inglês de forma simples, com explicações claras e exemplos que você usa no dia
+                        a dia.
+                        Ideal para quem quer aprender sem complicação.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 text-white">
+                    <h1>Siga seu ritmo</h1>
+                    <p>Você avança no seu ritmo, com exercícios rápidos que ajudam a memorizar vocabulário e entender o
+                        idioma de verdade.</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 text-white">
+                    <h1>Ganhe confiança</h1>
+                    <p>Com as técnicas do e-book, você começa a falar e compreender inglês desde as primeiras páginas,
+                        ganhando confiança de forma natural.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 
+
+
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>

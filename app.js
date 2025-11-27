@@ -3,11 +3,18 @@ const app = express();
 require('dotenv').config()
 const path = require('path')
 const homeRouter = require('./src/routers/homeRouter.js')
+const emailController = require('./src/routers/emailRouter.js')
+
+app.use(express.urlencoded({ extended: true }))
+app.use(express.json())
 
 app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname, './src/views'))
+app.use(express.static(path.join(__dirname, './src/public')));
+app.use('/bootstrap', express.static('node_modules/bootstrap/dist'));
 
 app.use('/', homeRouter)
+app.use('/send-email', emailController)
 
 app.listen(3000, () => {
     console.log(`Servidor online http://${process.env.HOST}:${process.env.PORT}`)
