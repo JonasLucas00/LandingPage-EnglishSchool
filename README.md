@@ -1,4 +1,4 @@
-# Projeto Validador de cadastro + landing page
+# Projeto Landing page English-School
 
 Este projeto consiste em uma landing page simples sobre uma escola de inlglês ficticia.
 Landing page foi estilizada com CSS e bootsrap.
