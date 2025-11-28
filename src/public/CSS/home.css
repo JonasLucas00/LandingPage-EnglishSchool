@@ -21,7 +21,6 @@ body {
 }
 
 .section-1 {
-    /* background-color: aqua; */
     min-width: 400px;
     min-height: 400px;
     display: flex;
@@ -77,4 +76,11 @@ body {
 
 .Row2 div p {
     padding: 10px;
+}
+
+.msg-email {
+    text-shadow:
+        0 0 5px #6a80ff,
+        0 0 10px #6a80ff,
+        0 0 20px #6a80ff;
 }

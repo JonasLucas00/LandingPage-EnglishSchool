@@ -29,8 +29,8 @@
 
     <div class="section-1">
 
-        <div class="container"> <!-- Centraliza o conteúdo -->
-            <div class="row Row1"> <!-- Cria linha 1 -->
+        <div class="container">
+            <div class="row Row1">
                 <div class="col-12 col-md-6 col-lg-4 text-white FORMdiv">
                     <div class="FORMdiv-text">
                         <h1>EBOOK GRATUITO</h1>
@@ -49,6 +49,14 @@
                         </div>
                         <button class="btn btn-primary w-100">Entrar</button>
                     </form>
+
+                    <%if (typeof message !=='undefined' && message){%>
+                        <div class="message text-center mt-3 msg-email">
+                            <p class="fs-4">
+                                <%=message%>
+                            </p>
+                        </div>
+                        <%}%>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 text-white">
                     <img src="/images/ChatGPT Image 23 de nov. de 2025, 17_07_26.png" alt="lua"

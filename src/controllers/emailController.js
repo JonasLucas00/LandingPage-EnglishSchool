@@ -27,7 +27,7 @@ class MailController {
                 <p>Abaixo esta o ebook solicitado!</p>
             `,
             });
-            return res.send('Email enviado!')
+            return res.render(`homeView`, { message: 'Email enviado!' })
 
         } catch (error) {
             console.log(error)
