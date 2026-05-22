@@ -7,6 +7,12 @@ no email que ele inseriu.
 
 > A landing page foi criada para prática de estilização com Bootstrap e CSS — não representa uma versão final para produção.
 
+## Live demo
+
+https://landing-page-english-school-swart.vercel.app/send-email
+
+![alt text](./src/public/images/image.png)
+
 ## 🚀 Funcionalidades
 
 - [x] Landing page
