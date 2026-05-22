@@ -9,8 +9,8 @@ no email que ele inseriu.
 
 ## 🚀 Funcionalidades
 
-[x] Landing page
-[x] Envio de 'ebook' para usuario
+- [x] Landing page
+- [x] Envio de 'ebook' para usuario
 
 ## 🛠 Tecnologias utilizadas
 
