@@ -9,7 +9,7 @@ no email que ele inseriu.
 
 ## Live demo
 
-https://landing-page-english-school-swart.vercel.app/send-email
+https://landing-page-english-school-swart.vercel.app
 
 ![alt text](./src/public/images/image.png)
 
